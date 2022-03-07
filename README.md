@@ -15,6 +15,15 @@ bert处理是通过调用huggingface提供的接口。
 
 本代码只是项目最初期的自己写的一个小demo，有条件有机会的话，在更新一下新版本代码。
 
+![image](https://user-images.githubusercontent.com/40733610/156957342-4b739afe-89e4-4a52-98ef-f2d5393a34ea.png)
+
+用户输入：张三老师
+
+输出用户问题：question:张三老师
+
+返回匹配到的问题：LABELS = 26 ,QUESTION = 张三老师
+
+返回匹配到的答案：ANSWER =  电气学院的张三老师的研究方向是电气工程,今年预计招收3名学生 
 
 
 hnsw和huggingface安装会比较费劲，如果自动安装出错，建议采取手动。
